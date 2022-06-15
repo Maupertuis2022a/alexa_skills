@@ -1,0 +1,27 @@
+{
+    "SKILL_NAME": "la base de données de l'ehpad",
+    "WELCOME": [
+      "Bienvenue dans {}. Que voulez-vous faire ?"
+    ],
+    "WELCOME_REPROMPT": [
+      "Bienvenue dans {}. Que voulez-vous faire ?"
+    ],
+    "GET_Nbr_chambre_CONFIRMED": [
+      "{} est dans la chambre {}. Vous voulez savoir autre chose ?"
+    ],
+    "GET_Nbr_chambre_REPROMPT_CONFIRMED": [
+      "Vous voulez savoir autre chose ?"
+    ],
+    "CANCEL_STOP_RESPONSE": [
+      "Au revoir.",
+      "Ok. Je serai là si tu as besoin de moi."
+    ],
+    "GET_user_name_CONFIRMED": [
+    "{} est le numéros de la chambre de {}. Vous voulez savoir autre chose ?"
+    ],
+    "GET_user_name_REPROMPT_CONFIRMED": [
+    "Désolé, je n'est pas pu répondre à votre dernière demande. Pourriez-vous la redire ? ."
+    ],
+    "ERROR": "Désolé, je n'ai pas pu répondre à votre dernière demande. Pourriez-vous la redire ?",
+    "ERROR_REPROMPT": "Pourriez vous la redire ?"
+}
