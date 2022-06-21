@@ -1,0 +1,123 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "dis titi",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "GetaujourdhuiIntent",
+          "slots": [
+            {
+              "name": "choix",
+              "type": "choix"
+            },
+            {
+              "name": "choixTime",
+              "type": "choixTime"
+            }
+          ],
+          "samples": [
+            "{choix}",
+            "en mange quoi ce {choix}",
+            "qu\u0027est ce que l\u0027on mange ce {choix}",
+            "qu\u0027est ce que l\u0027on mange {choix} ",
+            "en mange quoi {choix}",
+            "le {choix}"
+          ]
+        },
+        {
+          "name": "GetentreeIntenta",
+          "slots": [
+            {
+              "name": "choixTime",
+              "type": "choixTime"
+            }
+          ],
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "test"
+              }
+            },
+            {
+              "name": {
+                "value": "soir"
+              }
+            },
+            {
+              "name": {
+                "value": "midi"
+              }
+            },
+            {
+              "name": {
+                "value": "matin"
+              }
+            }
+          ],
+          "name": "choix"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "en ce moment"
+              }
+            },
+            {
+              "name": {
+                "value": "maintenant"
+              }
+            },
+            {
+              "name": {
+                "value": "aujourd\u0027hui"
+              }
+            },
+            {
+              "name": {
+                "value": "soir"
+              }
+            },
+            {
+              "name": {
+                "value": "midi"
+              }
+            },
+            {
+              "name": {
+                "value": "matin"
+              }
+            }
+          ],
+          "name": "choixTime"
+        }
+      ]
+    }
+  },
+  "version": "34"
+}

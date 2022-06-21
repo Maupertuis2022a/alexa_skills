@@ -1,0 +1,21 @@
+{
+    "SKILL_NAME": "le planing des repas de l'ehpad",
+    "WELCOME": [
+      "Bienvenue dans {}. Que voulez-vous savoir ?"
+    ],
+    "WELCOME_REPROMPT": [
+      "Bienvenue dans {}. Que voulez-vous savoir ?"
+    ],
+    "GET_aujourdhui_CONFIRMED": [
+      "test date {} Le {}, il y aura en entrée {}, et commme plat {}, et pour finir commme dessert nous aurons {}."
+    ],
+    "GET_aujourdhui_REPROMPT_CONFIRMED": [
+      "Vous voulez savoir autre chose ?"
+    ],
+    "CANCEL_STOP_RESPONSE": [
+      "Au revoir.",
+      "Ok. Je serai là si tu as besoin de moi."
+    ],
+    "ERROR": "Désolé, je n'ai pas pu répondre à votre dernière demande. Pourriez-vous la redire ?",
+    "ERROR_REPROMPT": "Pourriez vous la redire ?"
+}
